@@ -1,0 +1,5 @@
+# Ignoring instance folder
+instance/
+
+# Ignore specific files
+*.idea
