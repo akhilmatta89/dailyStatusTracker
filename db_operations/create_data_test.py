@@ -13,6 +13,7 @@ class TestCreateData(unittest.TestCase):
 
     def test_verify_req_body_when_wrong_request_body_should_throw_error(self):
         # Arrange
+
         self.setup()
         req_body = {
             "date": "2024-02-24",
