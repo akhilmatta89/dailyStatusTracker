@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-
+    agent {label 'python-nodes'}
     stages {
         stage('Checkout') {
             steps {
