@@ -5,11 +5,6 @@ pipeline {
     python "Python3"    // Make sure you have configured a Python tool called “Python3” in Jenkins
   }
 
-  environment {
-    // Add environment variables if needed
-    // e.g. ENV = "prod"
-  }
-
   stages {
     stage('Checkout') {
       steps {
