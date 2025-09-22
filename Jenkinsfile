@@ -55,7 +55,9 @@
 //     }
 // }
 pipeline {
-    agent any
+    agent {
+        label 'node-1'
+    }
     environment {
         SSH_CREDENTIALS = 'deploy-ssh-key'       // Jenkins SSH key credential
         DEPLOY_HOST = 'ubuntu@deploy-host'       // Replace with your host
