@@ -56,7 +56,7 @@
 // }
 pipeline {
     agent {
-        label 'node-1'
+        label 'python-nodes'
     }
     environment {
         SSH_CREDENTIALS = 'deploy-ssh-key'       // Jenkins SSH key credential
