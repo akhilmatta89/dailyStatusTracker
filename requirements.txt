@@ -1,2 +1,4 @@
 Flask==2.3.3
-pytest==7.2.2  # Use the version you need
+pytest==7.2.2
+flake8==6.1.0
+black==24.0.0
