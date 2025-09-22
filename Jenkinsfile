@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Setup & Lint') {
+        stage('Setup && Lint') {
             steps {
                 sh '''
                     python3 -m venv venv
