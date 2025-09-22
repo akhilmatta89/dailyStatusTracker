@@ -1,10 +1,6 @@
 pipeline {
   agent any
 
-  tools {
-    python "Python3"    // Make sure you have configured a Python tool called “Python3” in Jenkins
-  }
-
   stages {
     stage('Checkout') {
       steps {
